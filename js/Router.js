@@ -38,16 +38,19 @@ export class Router{
             if(route === './pages/home.html'){
                 bgBody.classList.remove('bg-universe')
                 bgBody.classList.remove('bg-exploration')
+                bgBody.classList.remove('bg-404')
                 bgBody.classList.add('bg-home')
         
             }if(route === './pages/universe.html'){
                 bgBody.classList.remove('bg-home')
                 bgBody.classList.remove('bg-exploration')
+                bgBody.classList.remove('bg-404')
                 bgBody.classList.add('bg-universe')
         
             }if(route === './pages/exploration.html'){
                 bgBody.classList.remove('bg-universe')
                 bgBody.classList.remove('bg-home')
+                bgBody.classList.remove('bg-404')
                 bgBody.classList.add('bg-exploration')
         
             }else if(route === './pages/404.html'){
